@@ -9,7 +9,7 @@
   "ComputeServers": {
     "GH": {
       "FaaSType": "GitHubActions",
-      "UserName": "Ashish-Ramrakhiani",
+      "UserName": "addelany",
       "ActionRepoName": "FaaSr-workflow-public",
       "Branch": "main",
       "UseSecretStore": true
