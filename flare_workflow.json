@@ -5,7 +5,7 @@
   "DefaultDataStore": "My_S3_Bucket",
   "LoggingDataStore": "My_S3_Bucket",
   "FaaSrLog": "FaaSrLog_flare",
-  
+
   "ComputeServers": {
     "GH": {
       "FaaSType": "GitHubActions",
@@ -15,7 +15,7 @@
       "UseSecretStore": true
     }
   },
-  
+
   "DataStores": {
     "My_S3_Bucket": {
       "Endpoint": "https://s3.us-west-2.amazonaws.com",
@@ -82,7 +82,7 @@
       "Region": "us-east-1"
     }
   },
-  
+
   "ActionList": {
     "check-weather": {
       "FunctionName": "check_weather",
@@ -170,7 +170,7 @@
       "InvokeNext": []
     }
   },
-  
+
   "ActionContainers": {
     "check-weather": "ghcr.io/ashish-ramrakhiani/github-actions-flare:latest",
     "run-weir-inflow": "ghcr.io/ashish-ramrakhiani/github-actions-flare:latest",
@@ -181,16 +181,16 @@
     "viz-HOx-on": "ghcr.io/ashish-ramrakhiani/github-actions-flare:latest",
     "check-notify": "ghcr.io/ashish-ramrakhiani/github-actions-flare:latest"
   },
-  
+
   "FunctionGitRepo": {
-    "check_weather": ["Ashish-Ramrakhiani/FCRE-forecast-code-FaaSr"],
-    "run_weir_inflow": ["Ashish-Ramrakhiani/FCRE-forecast-code-FaaSr"],
-    "forecast_HOx_off": ["Ashish-Ramrakhiani/FCRE-forecast-code-FaaSr"],
-    "check_anoxia": ["Ashish-Ramrakhiani/FCRE-forecast-code-FaaSr"],
-    "forecast_HOx_on": ["Ashish-Ramrakhiani/FCRE-forecast-code-FaaSr"],
-    "viz_HOx_off": ["Ashish-Ramrakhiani/FCRE-forecast-code-FaaSr"],
-    "viz_HOx_on": ["Ashish-Ramrakhiani/FCRE-forecast-code-FaaSr"],
-    "check_notify": ["Ashish-Ramrakhiani/FCRE-forecast-code-FaaSr"]
+    "check_weather": ["addelany/FCRE-forecast-code-FaaSr"],
+    "run_weir_inflow": ["addelany/FCRE-forecast-code-FaaSr"],
+    "forecast_HOx_off": ["addelany/FCRE-forecast-code-FaaSr"],
+    "check_anoxia": ["addelany/FCRE-forecast-code-FaaSr"],
+    "forecast_HOx_on": ["addelany/FCRE-forecast-code-FaaSr"],
+    "viz_HOx_off": ["addelany/FCRE-forecast-code-FaaSr"],
+    "viz_HOx_on": ["addelany/FCRE-forecast-code-FaaSr"],
+    "check_notify": ["addelany/FCRE-forecast-code-FaaSr"]
   },
 
   "FunctionCRANPackage": {
@@ -203,7 +203,7 @@
     "viz-HOx-on": [],
     "check-notify": []
   },
-  
+
   "FunctionGitHubPackage": {
     "check-weather": [],
     "run-weir-inflow": [],
