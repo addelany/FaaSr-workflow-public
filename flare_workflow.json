@@ -184,13 +184,13 @@
 
   "FunctionGitRepo": {
     "check_weather": ["Ashish-Ramrakhiani/FCRE-forecast-code-FaaSr"],
-    "run_weir_inflow": ["addelany/FCRE-forecast-code-FaaSr"],
-    "forecast_HOx_off": ["addelany/FCRE-forecast-code-FaaSr"],
-    "check_anoxia": ["addelany/FCRE-forecast-code-FaaSr"],
-    "forecast_HOx_on": ["addelany/FCRE-forecast-code-FaaSr"],
-    "viz_HOx_off": ["addelany/FCRE-forecast-code-FaaSr"],
-    "viz_HOx_on": ["addelany/FCRE-forecast-code-FaaSr"],
-    "check_notify": ["addelany/FCRE-forecast-code-FaaSr"]
+    "run_weir_inflow": ["Ashish-Ramrakhiani/FCRE-forecast-code-FaaSr"],
+    "forecast_HOx_off": ["Ashish-Ramrakhiani/FCRE-forecast-code-FaaSr"],
+    "check_anoxia": ["Ashish-Ramrakhiani/FCRE-forecast-code-FaaSr"],
+    "forecast_HOx_on": ["Ashish-Ramrakhiani/FCRE-forecast-code-FaaSr"],
+    "viz_HOx_off": ["Ashish-Ramrakhiani/FCRE-forecast-code-FaaSr"],
+    "viz_HOx_on": ["Ashish-Ramrakhiani/FCRE-forecast-code-FaaSr"],
+    "check_notify": ["Ashish-Ramrakhiani/FCRE-forecast-code-FaaSr"]
   },
 
   "FunctionCRANPackage": {
