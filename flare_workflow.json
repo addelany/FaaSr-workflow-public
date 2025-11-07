@@ -183,7 +183,7 @@
   },
 
   "FunctionGitRepo": {
-    "check_weather": ["addelany/FCRE-forecast-code-FaaSr"],
+    "check_weather": ["Ashish-Ramrakhiani/FCRE-forecast-code-FaaSr"],
     "run_weir_inflow": ["addelany/FCRE-forecast-code-FaaSr"],
     "forecast_HOx_off": ["addelany/FCRE-forecast-code-FaaSr"],
     "check_anoxia": ["addelany/FCRE-forecast-code-FaaSr"],
